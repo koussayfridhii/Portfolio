@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.png";
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -21,14 +23,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import expertTic from "./company/expertTic.png";
+import idhafa from "./company/idhafa.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import crrhab from "./crrhab.png";
+import fnarc from "./fnarc.png";
+import ness from "./ness.png";
 
 export {
   logo,
@@ -52,11 +52,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+ expertTic,
+ idhafa,
+  crrhab,
+  fnarc,
+  ness,
+  link
 };

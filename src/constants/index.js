@@ -15,13 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    idhafa,
+    expertTic,
+    crrhab,
+    fnarc,
+    ness,
     threejs,
   } from "../assets";
   
@@ -116,55 +114,25 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Expert Tic",
+      icon: expertTic,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mai 2020 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As a remote and freelance web developer, I have successfully completed multiple projects involving both custom development and WordPress solutions. My work includes database conception and realization, as well as front-end development for a variety of websites. Notable projects include www.ellouhoum.tn and sodek-sicar.com.tn, where I utilized HTML5, CSS3, JavaScript, and PHP. Additionally, I have worked on WordPress sites like www.commune-foussana.gov.tn and www.france-pac-chaudiere.fr, where I was responsible for both the database and front-end aspects.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "MERN Stack Developer",
+      company_name: "Al Idhafa",
+      icon: idhafa,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sept 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "In my role as a freelance web developer, I have completed a diverse range of projects that showcase my proficiency in both front-end and back-end development. For instance, I worked on www.fnarc.tn, where I utilized React JS, SASS, and Node JS to connect to a distant SQL Server database, employing the full MERN stack. I also developed www.ness.com.tn, managing the entire development process, including database conception, back-end, and front-end development using HTML5, CSS3, JavaScript, and PHP.",
+        "Additionally, I created and taught a MERN course, focusing on preparing comprehensive content for students. Furthermore, I was responsible for the full development lifecycle of www.crrhab.agrinet.tn, from conception to testing and hosting, using technologies such as React JS, Redux, Express JS, MongoDB, and more. This project also involved integrating Firebase Storage, Node Mailer, and real-time communication with Socket.io.",
+        
       ],
     },
   ];
@@ -172,23 +140,23 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Fridhi Kossay's skill and dedication turned our ideas into exceptional websites, like www.fnarc.tn and www.crrhab.agrinet.tn. Highly recommended for top-notch web development.",
+      name: "Faouzi Gassoumi",
+      designation: "CEO",
+      company: "Al Idhafa",
+      image: idhafa,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I had the pleasure of working with Fridhi Koussay on several projects, including www.commune-thala.gov.tn and www.ellouhoum.tn. His attention to detail, creativity, and expertise produced stunning, user-friendly results. I look forward to working with him again.",
+      name: "Anwer Borgi",
+      designation: "Tech Lead",
+      company: "Expert Tic",
+      image: expertTic,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Koussay optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -198,67 +166,79 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CRRHAB",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "WDuring the development of the CRRHAB platform, I utilized the MERN stack along with Framer Motion for animations, Redux for state management, and Firebase Storage for file management. I also integrated Node Mailer for email functionalities and implemented real-time communication features using Socket.io. Additionally, I ensured a multilingual experience, making the platform accessible and tailored to a diverse user base by supporting multiple languages.",
       tags: [
         {
-          name: "react",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "chakra ui",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Redux",
           color: "pink-text-gradient",
         },
+        {
+          name: "Firebase",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: crrhab,
+      source_code_link: "https://crrhab.agrinet.tn/",
     },
     {
-      name: "Job IT",
+      name: "FNARC",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "During the development of the FNARC platform, I used React, Redux, Express, and Node.js to connect to a distant SQL Server database. The project involved creating a five-generation family tree for each Tunisian horse and managing files and images with Firebase Storage. Additionally, I implemented a multilingual experience, ensuring the platform is accessible to a diverse user base and tailored to meet the needs of various language speakers.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Rest API",
           color: "green-text-gradient",
         },
         {
           name: "scss",
           color: "pink-text-gradient",
         },
+        {
+          name: "SQL Server",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: fnarc,
+      source_code_link: "https://fnarc.tn/",
     },
     {
-      name: "Trip Guide",
+      name: "Ness",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Ness is a versatile platform crafted to assist farmers and Agricultural Development Groups (GDAs). It provides essential tools for managing water resources, handling product sales, and efficiently overseeing GDAs. The platform also features a comprehensive ERP system designed to address the specific needs of these agricultural entities, optimizing their operations and boosting productivity.",
       tags: [
         {
-          name: "nextjs",
+          name: "html5",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "php",
+          color: "blue-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ness,
+      source_code_link: "https://ness.com.tn/",
     },
   ];
   
