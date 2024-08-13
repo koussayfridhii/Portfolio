@@ -168,7 +168,7 @@ import {
     {
       name: "CRRHAB",
       description:
-        "WDuring the development of the CRRHAB platform, I utilized the MERN stack along with Framer Motion for animations, Redux for state management, and Firebase Storage for file management. I also integrated Node Mailer for email functionalities and implemented real-time communication features using Socket.io. Additionally, I ensured a multilingual experience, making the platform accessible and tailored to a diverse user base by supporting multiple languages.",
+        "During the development of the CRRHAB platform, I utilized the MERN stack along with Framer Motion for animations, Redux for state management, and Firebase Storage for file management. I also integrated Node Mailer for email functionalities and implemented real-time communication features using Socket.io. Additionally, I ensured a multilingual experience, making the platform accessible and tailored to a diverse user base by supporting multiple languages.",
       tags: [
         {
           name: "MERN",
