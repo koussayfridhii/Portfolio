@@ -14,6 +14,11 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  const emailJsData = {
+    serviceId:"service_o0cjt4b",
+    templateId:"template_cbez6m8",
+    key:"i_RrfmegpPr1951tS"
+  }
 
   const [loading, setLoading] = useState(false);
 
@@ -33,8 +38,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        emailJsData.serviceId,
+        emailJsData.templateId,
         {
           from_name: form.name,
           to_name: "JavaScript Mastery",
@@ -42,7 +47,7 @@ const Contact = () => {
           to_email: "sujata@jsmastery.pro",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        emailJsData.key
       )
       .then(
         () => {
