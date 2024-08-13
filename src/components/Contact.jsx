@@ -6,7 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -21,7 +22,11 @@ const Contact = () => {
   }
 
   const [loading, setLoading] = useState(false);
-
+  const notify = (msg, status) => {
+    toast?.[status](msg,{
+      position: "top-center"
+    })
+  };
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -35,16 +40,20 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+    if(form.message === "" || form.email === "" || form.name ==="" ){
+      notify('Please fill in all fields.', "error");
+      setLoading(false);
+      return;
+    }
     emailjs
       .send(
         emailJsData.serviceId,
         emailJsData.templateId,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Koussay Fridhi",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "koussayfridhi.kf@gmail.com",
           message: form.message,
         },
         emailJsData.key
@@ -52,7 +61,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          notify('Thank you. I will get back to you as soon as possible.', "success")
 
           setForm({
             name: "",
@@ -64,7 +73,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          notify("Ahh, something went wrong. Please try again.", "error")
         }
       );
   };
@@ -73,6 +82,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+      <ToastContainer className="mx-auto"/>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
