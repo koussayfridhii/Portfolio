@@ -18,6 +18,7 @@ import {
     idhafa,
     expertTic,
     crrhab,
+    crrhabLogo,
     fnarc,
     ness,
     threejs,
@@ -156,11 +157,15 @@ import {
     },
     {
       testimonial:
-        "After Koussay optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        `I am writing this to express our congratulations and encouragement for all your efforts and dedication throughout the work on the CRRHAB website. Well done on how you managed the client.
+
+We are grateful to highlight your excellent work, your diligence, and your enthusiasm; we are all very happy to see you on the right path to success.
+
+Wishing you continued success and all the best in your endeavors.`,
+      name: "Abdessattar Chemkhi",
+      designation: "Client, IT responsible",
+      company: "CRRHAB",
+      image: crrhabLogo,
     },
   ];
   

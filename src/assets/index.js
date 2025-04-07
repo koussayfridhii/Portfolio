@@ -25,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 
 import expertTic from "./company/expertTic.png";
 import idhafa from "./company/idhafa.png";
+import crrhabLogo from "./company/crrhab.jpg";
 
 import crrhab from "./crrhab.png";
 import fnarc from "./fnarc.png";
@@ -57,5 +58,6 @@ export {
   crrhab,
   fnarc,
   ness,
-  link
+  link,
+  crrhabLogo,
 };
