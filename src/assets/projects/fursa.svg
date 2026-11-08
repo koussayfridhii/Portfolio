@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 64" role="img" aria-labelledby="title">
+  <title id="title">Fursa logo</title>
+  <rect width="64" height="64" rx="16" fill="#123D38"/>
+  <path d="M19 49V22c0-4.4 3.6-8 8-8h20M19 33h20" fill="none" stroke="#F8F7F2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47" cy="33" r="5" fill="#DDAA52"/>
+  <text x="82" y="46" fill="#142C2A" font-family="'DM Sans','Segoe UI',Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="-1.8">Fursa</text>
+</svg>

@@ -1,3 +1,7 @@
+import tadallal from "../assets/projects/tadallal.png";
+import alNasser from "../assets/projects/al-nasser.jpeg";
+import fursa from "../assets/projects/fursa.svg";
+
 import {
     mobile,
     backend,
@@ -170,6 +174,49 @@ Wishing you continued success and all the best in your endeavors.`,
   ];
   
   const projects = [
+    {
+      name: "Tadallal",
+      status: "In progress",
+      coverLabel: "Services marketplace",
+      description: "A service marketplace for Saudi Arabia where clients post requests and providers submit competing offers. The platform brings together bidding, payments, and real-time chat in Arabic and English.",
+      tags: [{ name: "React", color: "blue-text-gradient" }, { name: "Node.js", color: "green-text-gradient" }, { name: "MongoDB", color: "pink-text-gradient" }, { name: "Socket.io", color: "blue-text-gradient" }],
+      image: tadallal,
+      imageFit: "contain",
+    },
+    {
+      name: "Be First Learning",
+      status: "Completed",
+      coverLabel: "Learning, connected",
+      description: "A learning platform connecting teachers and students through class management, scheduling, and video lessons. Dedicated workspaces support teaching operations, student coordination, and payment management.",
+      tags: [{ name: "React", color: "blue-text-gradient" }, { name: "Express", color: "green-text-gradient" }, { name: "MongoDB", color: "pink-text-gradient" }, { name: "Stream", color: "blue-text-gradient" }],
+    },
+    {
+      name: "Al Nasser School",
+      status: "In progress",
+      coverLabel: "School website & portal",
+      description: "A bilingual school website and management portal bringing academic administration, attendance, coursework, and school operations into dedicated workspaces for staff, students, and families.",
+      tags: [{ name: "React", color: "blue-text-gradient" }, { name: "Express", color: "green-text-gradient" }, { name: "MongoDB", color: "pink-text-gradient" }],
+      image: alNasser,
+      imageFit: "contain",
+    },
+    {
+      name: "Fursa",
+      status: "Completed",
+      projectType: "Personal app",
+      coverLabel: "Personal Windows assistant",
+      description: "A personal Windows assistant for discovering job opportunities, scoring matches, and drafting tailored proposals. Voice interaction and Telegram integration support everyday tasks, with review before sensitive actions.",
+      tags: [{ name: "TypeScript", color: "blue-text-gradient" }, { name: "Electron", color: "green-text-gradient" }, { name: "React", color: "pink-text-gradient" }, { name: "Node.js", color: "blue-text-gradient" }],
+      image: fursa,
+      imageFit: "contain",
+    },
+    {
+      name: "IAgriculture",
+      status: "Completed",
+      projectType: "Bachelor’s final study project",
+      coverLabel: "Connected fields. Offline intelligence.",
+      description: "My bachelor’s final study project focused on offline agricultural monitoring and irrigation. It explores solar-powered sensors, long-range LoRa communication, and local decisions for managing field conditions without cloud connectivity.",
+      tags: [{ name: "IoT", color: "blue-text-gradient" }, { name: "LoRa", color: "green-text-gradient" }, { name: "Solar power", color: "pink-text-gradient" }],
+    },
     {
       name: "CRRHAB",
       description:
